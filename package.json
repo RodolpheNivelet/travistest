@@ -1,0 +1,22 @@
+{
+  "name": "travistest",
+  "version": "1.0.0",
+  "description": "Test for travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodolpheNivelet/travistest.git"
+  },
+  "keywords": [
+    "travis"
+  ],
+  "author": "Rodolphe Nivelet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodolpheNivelet/travistest/issues"
+  },
+  "homepage": "https://github.com/RodolpheNivelet/travistest#readme"
+}
