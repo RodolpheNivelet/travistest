@@ -1,4 +1,5 @@
 language: generic
 script:
   - cp -a /app/. /dist/
-deploy: ./scripts/deploy.sh
+deploy:
+  - ./scripts/deploy.sh
