@@ -6,13 +6,12 @@ REPO=`git config remote.origin.url`
 
 echo "Starting to update gh-pages\n"
 
-echo ls
-
 cd $HOME
-echo ls
+mkdir dist
 
-cp -R dist $HOME
-cd $HOME
+cd $TRAVIS_BUILD_DIR
+
+cp -R ./dist $HOME
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis"
 git clone --quiet --branch=gh-pages $REPO gh-pages > /dev/null
