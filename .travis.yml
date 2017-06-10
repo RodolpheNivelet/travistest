@@ -1,4 +1,4 @@
 language: generic
 script:
-  - cp -R app/* dist
+  - cp -R app dist
 after_success: bash ./scripts/deploy.sh

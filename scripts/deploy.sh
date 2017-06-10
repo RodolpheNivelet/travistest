@@ -6,7 +6,7 @@ REPO=`git config remote.origin.url`
 
 echo "Starting to update gh-pages"
 
-cp -R ./dist $HOME
+cp -R dist $HOME/
 cd $HOME
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis"
